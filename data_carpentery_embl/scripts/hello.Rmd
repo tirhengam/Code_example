@@ -1,0 +1,55 @@
+---
+title: "hengam"
+author: "Hengam"
+date: "31 Januar 2019"
+output: html_document
+
+
+
+---
+```{r}
+iris
+```
+
+is the plot showing corelation of two traits:
+  Ctrl+Alt+I
+  
+#```{r , echo =FALSE}
+#library(tidyverse)
+#ggplot(iris,aes(Sepal.Lenth , Petal.length) + geom_point())
+#```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+#This is 1
+## this is 2
+### this is 3
+* bullet1
+
+
+#things to sesech in future
+#patch work for merging plot together
+#themes for plot
+#plotly : interactive plot
+#heatmap : clustering plot result
+#look at clustering lator 
+
+#book  Exploratory Data analysis With R by Roger d.peng 
+#other books are in main page of the course
+
+#www.data-to-viz.com
+#r_statistics.co
+
+
+#write your own functions
+
+
